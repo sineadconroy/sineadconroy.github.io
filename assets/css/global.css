@@ -22,7 +22,7 @@ color: #777
 }
 
 h1 {font-family: 'Source Code Pro', monospace;
-    font-size: 78px;
+    font-size: calc(42px + (90 - 76) * ((100vw - 320px) / (1600 - 320))); 
     font-weight: normal;
     letter-spacing: -2px;
     margin-bottom: 12px;
@@ -30,14 +30,14 @@ h1 {font-family: 'Source Code Pro', monospace;
 }
 
 h2 {font-family: 'Source Code Pro', monospace;
-    font-size: 42px;
+    font-size: calc(25px + (42 - 30) * ((100vw - 320px) / (1600 - 320))); 
     letter-spacing: 6px;
     margin-bottom: 48px;
     line-height: 1.2;
 }
 
 h3 {font-family: 'Source Code Pro', monospace;
-    font-size: 24px;
+    font-size: calc(25px + (42 - 30) * ((100vw - 320px) / (1600 - 320))); 
     margin-top: 48px;
     margin-bottom: 20px;
     line-height: 1.2;
@@ -45,7 +45,7 @@ h3 {font-family: 'Source Code Pro', monospace;
 }
 
 p {font-family: 'Source Code Pro', monospace;
-    font-size: 20px;
+    font-size: calc(17px + (20 - 15) * ((100vw - 320px) / (1600 - 320))); 
     margin-bottom: 16px;
 }
 
