@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Smooth Smoothies | IBAT Web Design Portfolio Project | Mary Smith</title>
+	<title>Smooth Smoothies | IBAT Web Design Portfolio Project | Sinead Conroy</title>
 
 	<meta name="description" content="Dublin's finest smoothie store. Offering tasty alternatives to sugary and unhealthy snacks for busy, on-the-go, on-trend professionals.">
 
@@ -16,7 +16,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
 
 	<!-- Link to icons for Font Awesome 5 -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">  
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"> 
+	
+	<!-- Link to stylesheet for Cookie Consent Popup Message --> 
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+
 
 </head>
 
@@ -64,21 +70,21 @@
         <hr>
         <h4>About Me</h4>
         <div class="fly-out-profile-box">
-            <p>Hi, I'm <b>Sinead Conroy</b>, a web and digital designer in-training based in Dublin, Ireland.</p>
+            <p>Hi, I'm <b>Sinead Conroy</b>, a web designer in training based in Dublin, Ireland.</p>
         </div>
 	
         <h4>Contact</h4>
         <p>Have a project you'd like to discuss? Let's make something great together!</p>
 
-        <h5><a href="tel:0833615483">083 361 5483</a></h5>
+        <h5><a href="tel:0833615483">083 3615483</a></h5>
 
         <h5><a href="mailto:conroysinead@gmail.com" target="_blank">conroysinead@gmail.com</a></h5>
 
         <h4>Social Links</h4>
         <div class="fly-out-social-icons">
-            <a href="https://sineadconroy.github.io" target="_blank"><i class="fab fa-github-square fa-fw"></i></a>
+            <a href="https://sineadconroy.github.io/index" target="_blank"><i class="fab fa-github-square fa-fw"></i></a>
             <a href="https://www.linkedin.com/in/sinead-conroy-b4750b101/" target="_blank"><i class="fab fa-linkedin fa-fw"></i></a>
-            <a href="https://www.facebook.com/conroysinead" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            
         </div>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
@@ -176,22 +182,22 @@
 	<!-- End container for email signup form -->
 	<!-- =============== END EMAIL SIGN UP FORM HTML ============= -->
 
-	<!-- Begin HTML footer -->
+		<!-- Begin HTML footer -->
 
-	<footer class="container-footer">
+		<footer class="container-footer">
 
-		<div class="item-3">
-
-			<h4>Site Map</h4>
-			<p><i class="fas fa-home fa-fw"></i><a href="../../index.html">Home</a></p>
-			<p><i class="fas fa-file-alt fa-fw"></i><a href="../index.html">Portfolio</a></p>
-			<p><i class="fas fa-lock fa-fw"></i><a href="../../privacy.html">Privacy</a></p>
-		
-		</div>
-
-		<div class="item-3">
-			<h4>About Me</h4>
-				<p>Hi, I'm Sinead Conroy. I'm a web designer and developer in training!</p>
+			<div class="item-3">
+	
+				<h4>Site Map</h4>
+				<p><i class="fas fa-home fa-fw"></i><a href="sineadconroy.github.io/index">Home</a></p>
+				<p><i class="fas fa-file-alt fa-fw"></i><a href="sineadconroy.github.io/index">Portfolio</a></p>
+				<p><i class="fas fa-lock fa-fw"></i><a href="privacy-template.html">Privacy</a></p>
+			
+			</div>
+	
+			<div class="item-3">
+				<h4>About Me</h4>
+				<p>Hi, I'm Sinead Conroy. I'm a web designer in training.</p>
 				
 				<p>I created this sample web page to showcase some of my digital creation skills.</p>
 			</div>
@@ -199,11 +205,13 @@
 			<div class="item-3">
 				<h4>Contact</h4>
 				<p><i class="fas fa-envelope fa-fw"></i><a href="mailto:conroysinead@gmail.com">Email</a></p>
-				<p><i class="fab fa-github-square fa-fw"></i><a href="https://sineadconroy.github.io" target="_blank">GitHub</a></p>
+				<p><i class="fab fa-github-square fa-fw"></i><a href="https://sineadconroy.github.io/index" target="_blank">GitHub</a></p>
 				<p><i class="fab fa-linkedin fa-fw"></i><a href="https://www.linkedin.com/in/sinead-conroy-b4750b101/" target="_blank">Linkedin</a></p>
 			</div>
+			
+		</footer>
 		
-	</footer>
+		<!-- End HTML footer -->
 	
 	<!-- End HTML footer -->
 
@@ -282,6 +290,27 @@
 
 	</script>
 	<!-- End JavaScript code for desktop and mobile menus -->
+
+	<!-- JavaScript for Cookie Consent Popup Message -->
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#eaf7f7",
+      "text": "#5c7291"
+    },
+    "button": {
+      "background": "#56cbdb",
+      "text": "#ffffff"
+    }
+  },
+  "content": {
+    "href": "https://sineadconroy.github.io/privacy-template.html"
+  }
+});
+</script>
 
 </body>
 </html>
