@@ -17,6 +17,12 @@
     <!-- Link to icons for Font Awesome 5 -->;
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">  
 
+	<!-- Link to stylesheet for Cookie Consent Popup Message --> 
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+
+
 </head>
 
 <body>
@@ -110,5 +116,27 @@
 	</footer>
 	
 	<!-- End HTML footer -->
+
+	<!-- JavaScript for Cookie Consent Popup Message -->
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#eaf7f7",
+      "text": "#5c7291"
+    },
+    "button": {
+      "background": "#56cbdb",
+      "text": "#ffffff"
+    }
+  },
+  "content": {
+    "href": "https://sineadconroy.github.io/privacy-template.html"
+  }
+});
+</script>
+
 </body>
 </html>
